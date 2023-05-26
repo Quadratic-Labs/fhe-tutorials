@@ -2,3 +2,4 @@
 concrete-python==1.0.0
 ipykernel==6.23.1
 numpy==1.24.3
+matplotlib
