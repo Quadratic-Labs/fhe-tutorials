@@ -26,9 +26,9 @@ class Dijkstra:
             previous_nodes (list): previous vertex on the shortest path.
         """
         distances = numpy.full((self.n_vertices,), numpy.inf)
-        distances[start_node] = 0
+        distances[origin] = 0
         previous_nodes = [None] * self.n_vertices
-        priority_queue = [(0, start_node)]
+        priority_queue = [(0, origin)]
 
         while priority_queue:
             current_distance, current_node = heapq.heappop(priority_queue)
@@ -66,7 +66,7 @@ class Dijkstra:
         max_length = 0
         for start in range(self.n_vertices):
             paths_from_start = []
-            _, previous_nodes = self.shortest_from_start_node(start)
+            _, previous_nodes = self.shortest_from_origin(start)
             for end in range(self.n_vertices):
                 path = self._get_path_from_previous_nodes(end, previous_nodes)
                 paths_from_start.append(path)
