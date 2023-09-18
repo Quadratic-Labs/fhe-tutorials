@@ -1,4 +1,28 @@
 import pandas as pd
+from concrete import fhe
+from config import circuit_filepath
+
+def set_up_server():
+    # Setting up a server
+    try:
+        server = fhe.Server.load(circuit_filepath)
+    except Exception:
+        raise Exception(f"Something went wrong with the circuit. Make sure that the circuit exists in {circuit_filepath}. If not run python generate_circuit.py.") 
+
+    return server
+
+def set_up_client(serialized_client_specs):
+    # Setting up client
+    client_specs = fhe.ClientSpecs.deserialize(serialized_client_specs)
+    client = fhe.Client(client_specs)
+
+    return client
+
+def display_encrypted(encrypted_object):
+    encoded_text = encrypted_object.hex()
+    res = '...' + encoded_text[-10:]
+    return res
+
 def shortest_path(circuit, N_NODES, origin, destination):
     path = [origin, ]
     o, d = circuit.encrypt(origin, destination)
