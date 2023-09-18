@@ -1,5 +1,4 @@
 import geopandas
-import numpy
 from concrete import fhe
 
 import config
