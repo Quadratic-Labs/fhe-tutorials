@@ -40,7 +40,7 @@ if 'evaluation_key' not in st.session_state:
                 client.keys.load_if_exists_generate_and_save_otherwise(config.keys_filepath)
                 # client.keys.save(config.keys_filepath)
                 st.session_state['evaluation_key'] = client.evaluation_keys.serialize()
-            st.experimental_rerun()
+            st.rerun()
 else:
     with c1:
         st.write("Encryption/decryption keys and evaluation keys are generated.")
@@ -65,7 +65,7 @@ else:
             st.session_state['origin'] = origin
             st.session_state['origin_node'] = origin_node
             st.write(f"Selected node is node number: {origin_node}")  
-            st.experimental_rerun()
+            st.rerun()
 
     if 'origin' in st.session_state and 'destination' not in st.session_state:
         origin = st.session_state['origin']
@@ -85,7 +85,7 @@ else:
             st.session_state['destination'] = destination
             st.session_state['destination_node'] = nodes[nodes['geometry'] == destination]['node_id'].values[0]
             st.write(st_data_destination["last_object_clicked"])
-            st.experimental_rerun()
+            st.rerun()
 
     if 'origin' in st.session_state and 'destination' in st.session_state and 'encrypted_origin' not in st.session_state :
         origin = st.session_state['origin']
@@ -104,7 +104,7 @@ else:
                     origin, destination = client.encrypt(origin_node, destination_node)
                     st.session_state['encrypted_origin'] = origin.serialize()
                     st.session_state['encrypted_destination'] = destination.serialize()
-                st.experimental_rerun()
+                st.rerun()
         with c2:
             st_data_final = st_folium(m, width=725, key="destination", returned_objects=[])
         with c3:
@@ -155,7 +155,7 @@ else:
                         
                     st.session_state['encrypted_shortest_path'] = encrypted_path
                     st.session_state['decrypted_shortest_path'] = path
-                st.experimental_rerun()
+                st.rerun()
 
     if 'encrypted_shortest_path' in st.session_state and 'decrypted_result' not in st.session_state :  
         origin = st.session_state['origin']
@@ -181,7 +181,7 @@ else:
                         deserialized_result = fhe.Value.deserialize(enc_value)
                         path.append(client.decrypt(deserialized_result))
                     st.session_state['decrypted_result'] = path
-                st.experimental_rerun()
+                st.rerun()
         with c2:
             
             origin = st.session_state['origin']
@@ -215,7 +215,7 @@ else:
             if st.button('Restart'):
                 for key in st.session_state.keys():
                     del st.session_state[key]
-                st.experimental_rerun() 
+                st.rerun() 
         with c2:
             origin = st.session_state['origin']
             folium.Marker([origin.y, origin.x], popup="Origin", tooltip="Origin").add_to(m)  

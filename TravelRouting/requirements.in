@@ -1,5 +1,11 @@
-# Python 3.10.6
+# Python 3.10.13
 concrete-python==2.0.0
+folium
+geopandas
 ipykernel
+mapclassify
 numpy
 matplotlib
+shapely
+streamlit==1.27.0
+streamlit-folium
