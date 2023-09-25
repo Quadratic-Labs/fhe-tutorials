@@ -1,3 +1,7 @@
+# This script is used to generate the circuit archive.
+# The circuit depends on the network, and must be recompiled for each different network.
+
+
 import geopandas
 from concrete import fhe
 

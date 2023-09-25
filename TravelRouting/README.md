@@ -8,28 +8,26 @@ We propose in this tutorial to showcase how Zama's homomorphic encryption could 
 In this scenario, the server does not learn anything about a client's position at anytime as it sees only encrypted data.
 
 ## Achieving Privacy
-We identify 2 ways to achieve privacy that can be used in different usecases:
+In our application demo:
 
-  1. Server owns map data, client owns origin and destination: this is similar to oblivious transfert (OT). The server knows a collection of shortest routes between all origins and destinations. The client chooses anonymously one such route (origin and destination pair). With OT, the server learns nothing new, while the client learns only the shortest path selected.
-  1. Client owns map data: in this case, the server provides the algorithm and compute power. The map data is sent encrypted to the server, which learns nothing at all from the map, origin and destination altogether.
+  1. The client owns its position and its target destination. The client never shares this information in clear with the server.
+  1. The server owns map data. It only shares with the client local map data useful for the itinerary.
 
-There is also a variant where the client does not know which destination to choose, but instead would like the nearest destinations having some attributes: for example, being restaurants.
+To achieve this, FHE is used to implement what is known as Oblivious Transfer (OT): the server precomputes for each origin and destination pair its corresponding shortest path, and the client retrieves the shortest path for one pair without the server gaining any information as to which pair was selected.
 
-## Shortest-Paths Algorithms
-There are several algorithms to choose from. We have explored dijkstra, bellman-ford, floyd-warshall. However, there performances must be reviewed taking into account the following remark:
+Oblivious transfer is easily implemented using Zama's concrete library by a single Table Lookup (TLU).
 
-> Choosing 1 element out of N anonymously requires O(N)-time. In essence, we would like to be able to index an array with an encrypted index. However, that is not possible as is, but requires performing a dot-product with a selector array. For example, to choose the first element of an array of 3, we would send (encrypted) the selector [1, 0, 0].
+## Demo App
+A demo streamlit app is available on HuggingFace: https://huggingface.co/spaces/tzamoj-quadratic/FHETravelRouting
 
-Now, when we analyse performances for the different algorithms, we obtain:
+It can also be deployed locally in the usual way:
 
-  1. Dijkstra : todo
-  1. Bellman-Ford: todo
-  1. Floyd-Warshall: todo
-  1. Simple: todo
+  1. Create a python virtual environnement and activate it.
+  1. Install dependencies from requirements.txt:  pip install -r requirements.txt
+  1. Launch the app: streamlit run app.py
+  
+The app depends also on files found in data/ folder:
 
-At any rate, we obtain:
-
-  1. O(N^3)-time for selecting a path from a precomputed array of N^2 paths of length O(N).
-  1. O(N^3)-time for finding shortest path on an encrypted graph.
-
-TODO
+  1. circuit.zip : use generate_circuit.py to recompile the circuit if necessary (on new network data).
+  1. key.zip : cached keys. If not present, they will be generated.
+  1. paris_quadratic_edges.geojson: map data extracted from OSM (overpass-turbo API). See Getting-Started.ipynb for more information.
