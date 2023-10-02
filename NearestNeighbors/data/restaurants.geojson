@@ -1,0 +1,4618 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-09-25T15:05:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/287612106",
+        "amenity": "restaurant",
+        "name": "Vadrouille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3373832,
+          48.8773406
+        ]
+      },
+      "id": "node/287612106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/428141439",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "22",
+        "contact:phone": "+33 1 48 00 07 73",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de Trévise",
+        "cuisine": "chinese",
+        "description": "Spécialités du Hunan",
+        "indoor_seating": "yes",
+        "name": "L'Orient d'Or",
+        "name:fr": "L'Orient d'Or",
+        "name:zh": "福源丰",
+        "opening_hours": "Tu-Su 12:00-14:30,19:00-22:30; Mo off",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3454201,
+          48.8739244
+        ]
+      },
+      "id": "node/428141439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663314810",
+        "amenity": "restaurant",
+        "name": "La Rimaudière",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3394255,
+          48.8768016
+        ]
+      },
+      "id": "node/663314810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/971476013",
+        "amenity": "restaurant",
+        "name": "Les Ailes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3443375,
+          48.8739835
+        ]
+      },
+      "id": "node/971476013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/971476045",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Hong Kong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3456817,
+          48.876213
+        ]
+      },
+      "id": "node/971476045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1232772691",
+        "addr:city": "Paris",
+        "addr:housenumber": "46",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "contact:phone": "+33 1 73 77 82 66",
+        "contact:website": "https://www.kozy.fr/kozy-kanope-brunch",
+        "cuisine": "cake;coffee_shop;french;juice;pancake;brunch",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "kids_area": "no",
+        "level": "0",
+        "microbrewery": "no",
+        "name": "Kozy Kanope",
+        "opening_hours": "Mo-Fr 08:00-15:00; Sa-Su 09:30-16:00",
+        "outdoor_seating": "no",
+        "reservation": "no",
+        "self_service": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3401877,
+          48.8747844
+        ]
+      },
+      "id": "node/1232772691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1236456908",
+        "addr:housenumber": "23",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Lamartine",
+        "amenity": "restaurant",
+        "contact:instagram": "piknik_paris",
+        "cuisine": "asian",
+        "name": "Piknik",
+        "name:ko": "피크닉",
+        "opening_hours": "Mo-Fr 12:00-14:30",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3415422,
+          48.8764927
+        ]
+      },
+      "id": "node/1236456908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242438647",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "35",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de Trévise",
+        "cuisine": "mexican",
+        "name": "Black bean",
+        "name:fr": "Black beans Mexicain",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.345311,
+          48.8748766
+        ]
+      },
+      "id": "node/1242438647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242439149",
+        "addr:housenumber": "58",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "name": "L'Atelier Saisonnier",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3424351,
+          48.8753894
+        ]
+      },
+      "id": "node/1242439149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242504317",
+        "addr:housenumber": "16",
+        "amenity": "restaurant",
+        "name": "A la",
+        "name:fr": "Grange beteliere"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3412456,
+          48.8732347
+        ]
+      },
+      "id": "node/1242504317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242504439",
+        "addr:housenumber": "12",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Buffault",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "internet_access": "wlan",
+        "name": "Les Bariolés de Maud",
+        "opening_hours": "Mo-Fr 11:00-15:00; Sa,Su 10:00-16:00",
+        "phone": "+33 9 73 17 01 68",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "website": "http://lesbariolesdemaud.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3419536,
+          48.8755706
+        ]
+      },
+      "id": "node/1242504439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293504445",
+        "addr:housenumber": "77",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Taitbout",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "asian;korean;japanese",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Dolsotbat",
+        "opening_hours": "Mo-Sa 12:00-14:30, 19:00-22:30",
+        "outdoor_seating": "no",
+        "phone": "+33 1 48 78 47 44",
+        "smoking": "no",
+        "source": "survey",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3352931,
+          48.8765206
+        ]
+      },
+      "id": "node/1293504445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293504454",
+        "amenity": "restaurant",
+        "contact:housenumber": "43",
+        "contact:street": "Rue Saint-Lazare",
+        "cuisine": "portuguese;petiscos;bacalhau",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "CDP Paris Lazare",
+        "opening_hours": "Mo-Sa 12:00-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 1 48 74 32 94",
+        "short_name": "CDP Lazare",
+        "strapline": "Cuisine Lusitanienne by Alfredo Martins",
+        "website": "https://cdp-paris.fr/fr/restaurants-portugais-de-qualite-by-alfredo-martins",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3353158,
+          48.876753
+        ]
+      },
+      "id": "node/1293504454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293504460",
+        "addr:housenumber": "75",
+        "addr:street": "Rue Taitbout",
+        "amenity": "restaurant",
+        "cuisine": "pasta",
+        "description": "Small pasta-oriented restaurant / take-away",
+        "name": "Pasta & Co"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3352844,
+          48.8764639
+        ]
+      },
+      "id": "node/1293504460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293504477",
+        "addr:city": "Paris",
+        "addr:housenumber": "75",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Taitbout",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Angkor Maison",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3352774,
+          48.8764321
+        ]
+      },
+      "id": "node/1293504477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294579480",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Café Lorette",
+        "outdoor_seating": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3383718,
+          48.8760923
+        ]
+      },
+      "id": "node/1294579480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294579482",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "chinese",
+        "level": "0",
+        "microbrewery": "no",
+        "name": "Sucrépice",
+        "opening_hours": "Tu-Su 12:00-22:30",
+        "outdoor_seating": "no",
+        "self_service": "no",
+        "smoking": "no",
+        "stars": "0",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3383294,
+          48.8745269
+        ]
+      },
+      "id": "node/1294579482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294579501",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Le Laffitte",
+        "phone": "+33 1 42 80 07 66",
+        "smoking": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.338336,
+          48.8751689
+        ]
+      },
+      "id": "node/1294579501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1440250986",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Chez Vous",
+        "smoking": "separated",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3398701,
+          48.8776662
+        ]
+      },
+      "id": "node/1440250986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1445872328",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Les Demoiselles de Lorette",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3370142,
+          48.8764828
+        ]
+      },
+      "id": "node/1445872328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1445872334",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Salsamenteria di Parma",
+        "source": "survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3371884,
+          48.8765216
+        ]
+      },
+      "id": "node/1445872334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1482958090",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "34",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de la Victoire",
+        "contact:website": "https://www.memento-paris.fr",
+        "cuisine": "traditional;french",
+        "name": "Memento",
+        "opening_hours": "Mo-Fr 12:00-14:30",
+        "smoking": "no",
+        "source": "survey",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3376319,
+          48.875193
+        ]
+      },
+      "id": "node/1482958090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1482958091",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Le Chantereine",
+        "phone": "+33 1 48 74 49 86",
+        "source": "survey",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3355442,
+          48.8751468
+        ]
+      },
+      "id": "node/1482958091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1482958093",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "fax": "+33 9 50 55 66 68",
+        "internet_access": "wlan",
+        "name": "Paradis des Pâtes",
+        "opening_hours": "Mo-Sa 11:00-23:00",
+        "smoking": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3392304,
+          48.8750364
+        ]
+      },
+      "id": "node/1482958093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017712",
+        "addr:city": "Paris",
+        "addr:housenumber": "15",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Bib!mbar",
+        "source": "survey",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3373282,
+          48.8766742
+        ]
+      },
+      "id": "node/1483017712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017713",
+        "addr:city": "Paris",
+        "addr:housenumber": "21",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "capacity": "60",
+        "cuisine": "french;bistro",
+        "email": "bonjour@mieux-restaurant.com",
+        "name": "Mieux",
+        "opening_hours": "Mo-Sa 12:00-14:30,19:30-22:30",
+        "phone": "+33 1 71 32 46 73",
+        "smoking": "no",
+        "takeaway": "no",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "http://mieux-restaurant.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3368624,
+          48.8766497
+        ]
+      },
+      "id": "node/1483017713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017719",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Jean",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3383704,
+          48.8769295
+        ]
+      },
+      "id": "node/1483017719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017723",
+        "amenity": "restaurant",
+        "cuisine": "argentinian",
+        "name": "Pony Polo",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3369941,
+          48.8767991
+        ]
+      },
+      "id": "node/1483017723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017727",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Mamtajmahal",
+        "smoking": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.336497,
+          48.8768072
+        ]
+      },
+      "id": "node/1483017727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017732",
+        "amenity": "restaurant",
+        "brand": "Bistro Régent",
+        "cuisine": "steak_house;french",
+        "name": "Bistro Régent",
+        "smoking": "no",
+        "source": "survey",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3388379,
+          48.875855
+        ]
+      },
+      "id": "node/1483017732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017733",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Yokhama",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3367754,
+          48.8767897
+        ]
+      },
+      "id": "node/1483017733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1483017735",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Sakura",
+        "opening_hours": "Mo-Sa 11:30-15:00,18:30-22:30; Su 18:30-22:30",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3379529,
+          48.8767676
+        ]
+      },
+      "id": "node/1483017735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1489467283",
+        "amenity": "restaurant",
+        "name": "Gontran",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3393542,
+          48.8749956
+        ]
+      },
+      "id": "node/1489467283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1675451555",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "contact:city": "Paris",
+        "contact:housenumber": "25",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Le Peletier",
+        "contact:website": "https://www.restaurant-aupetitriche.com/",
+        "cuisine": "french",
+        "name": "Au Petit Riche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33857,
+          48.8731527
+        ]
+      },
+      "id": "node/1675451555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1677167520",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Pizza Capri",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.343092,
+          48.8739879
+        ]
+      },
+      "id": "node/1677167520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1824826034",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Saveurs et Coïncedences"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3451791,
+          48.8728885
+        ]
+      },
+      "id": "node/1824826034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138878",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Bao nan",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3394762,
+          48.8765391
+        ]
+      },
+      "id": "node/1827138878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138887",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Kamado",
+        "phone": "+33 1 42 80 39 92"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3400961,
+          48.8762148
+        ]
+      },
+      "id": "node/1827138887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138888",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Magokoro",
+        "smoking": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3406889,
+          48.8765114
+        ]
+      },
+      "id": "node/1827138888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138894",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "info@restaurant-les-saisons.com",
+        "name": "Les Saisons",
+        "opening_hours": "12:00-14:30,19:15-22:45",
+        "phone": "+33 1 40 16 08 00",
+        "website": "https://www.restaurant-les-saisons.com/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3401427,
+          48.8766574
+        ]
+      },
+      "id": "node/1827138894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138908",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Sambuja",
+        "phone": "+33 1 53 21 07 89"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3395753,
+          48.876475
+        ]
+      },
+      "id": "node/1827138908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138910",
+        "addr:housenumber": "44",
+        "addr:street": "Rue Lamartine",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Xi'an",
+        "opening_hours": "Mo-Sa 11:45-14:45, 18:30-22:30",
+        "phone": "+33 1 42 81 38 07",
+        "smoking": "outside",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3408729,
+          48.8766336
+        ]
+      },
+      "id": "node/1827138910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1827138913",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Le Milton",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "operator": "Mme Epale Sophie",
+        "phone": "+33 1 45 26 62 20",
+        "smoking": "outside",
+        "website": "https://fr-fr.facebook.com/Les-madeleines-parisiennes-343278205695571/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3405656,
+          48.8766574
+        ]
+      },
+      "id": "node/1827138913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1980664953",
+        "amenity": "restaurant",
+        "name": "La Boule Rouge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3445761,
+          48.8731487
+        ]
+      },
+      "id": "node/1980664953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2103216535",
+        "amenity": "restaurant",
+        "name": "Chez Yanina",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3429609,
+          48.8727963
+        ]
+      },
+      "id": "node/2103216535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2103216538",
+        "amenity": "restaurant",
+        "name": "Ravioli Nord-Est",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3429812,
+          48.8727029
+        ]
+      },
+      "id": "node/2103216538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2126361721",
+        "addr:city": "Paris",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Matteo",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3432485,
+          48.8729655
+        ]
+      },
+      "id": "node/2126361721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2164023035",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Le Bonheur",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3435127,
+          48.8730359
+        ]
+      },
+      "id": "node/2164023035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446448987",
+        "amenity": "restaurant",
+        "check_date": "2023-01-26",
+        "cuisine": "korean",
+        "name": "Sobane",
+        "opening_hours": "Mo-Sa 12:00-14:30, Mo-Su 19:00-22:30",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3448931,
+          48.8788007
+        ]
+      },
+      "id": "node/2446448987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2471187815",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "Grill Istanbul",
+        "source": "survey 2013",
+        "survey:date": "2018-05-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3442886,
+          48.8767035
+        ]
+      },
+      "id": "node/2471187815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2485354450",
+        "amenity": "restaurant",
+        "name": "Jeanne-Aimée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3384716,
+          48.8762503
+        ]
+      },
+      "id": "node/2485354450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2500457603",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2022-09-14",
+        "name": "Au Taquet",
+        "opening_hours:signed": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3459265,
+          48.8758373
+        ]
+      },
+      "id": "node/2500457603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2514493568",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Traiteur Délice Cadet",
+        "phone": "+33148784192",
+        "source": "survey",
+        "survey:date": "2018-05-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3443424,
+          48.8763927
+        ]
+      },
+      "id": "node/2514493568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2680421252",
+        "addr:city": "Paris",
+        "addr:housenumber": "46",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Richer",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "pizza;pasta",
+        "delivery": "yes",
+        "description": "Situé à Paris 9, à quelques mètres des Grands Boulevards, PAPI est un restaurant italien spécialisé dans la conception de pizzas au levain. Le restaurant PAPI (Pasta Pizza) vous propose des pizzas à base de levain, pâtes fraîches artisanales et aussi, de",
+        "diet:vegetarian": "yes",
+        "email": "bonjour@papirestaurant.fr",
+        "name": "Papi Restaurant",
+        "opening_hours": "Mo-Tu,Sa 12:00-14:00,18:30-21:30",
+        "phone": "+33 1 71 27 77 65",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://www.papirestaurant.fr/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3436798,
+          48.8741108
+        ]
+      },
+      "id": "node/2680421252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2692650140",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "17",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de Trévise",
+        "cuisine": "ukrainian;russian",
+        "diet:vegetarian": "yes",
+        "name": "Kalinka",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3451402,
+          48.8737471
+        ]
+      },
+      "id": "node/2692650140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2692650157",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kolfe Jean",
+        "opening_hours": "Mo-Fr 12:00-15:00,19:00-22:00",
+        "phone": "+33 1 47 70 68 76",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3449978,
+          48.8731623
+        ]
+      },
+      "id": "node/2692650157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2692650176",
+        "amenity": "restaurant",
+        "check_date": "2023-07-05",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "name": "Le Bookie",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "reservation": "yes",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3450913,
+          48.8735309
+        ]
+      },
+      "id": "node/2692650176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2799009841",
+        "addr:housenumber": "46",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Les Pâtes Vivantes",
+        "name:zh": "活着的面条",
+        "opening_hours": "Mo-Fr 12:00-15:00; Sa-Su 12:00-15:30; Mo-Su 19:00-23:00",
+        "phone": "+33 145 231 021",
+        "source": "survey 2013",
+        "website": "https://www.lespatesvivantes.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3415841,
+          48.8747214
+        ]
+      },
+      "id": "node/2799009841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2799010416",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "source": "survey 2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.341641,
+          48.874684
+        ]
+      },
+      "id": "node/2799010416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2961160024",
+        "addr:city": "Paris",
+        "addr:housenumber": "24",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "capacity": "8",
+        "cuisine": "pizza;new_york_pizza",
+        "facebook": "https://facebook.com/nickspizza",
+        "name": "Nick's Pizza",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3430215,
+          48.8734806
+        ]
+      },
+      "id": "node/2961160024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3183025906",
+        "amenity": "restaurant",
+        "cuisine": "chinese;huoguo",
+        "name": "Les Trois Royaumes",
+        "name:zh": "諸葛烤魚",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3439946,
+          48.8741151
+        ]
+      },
+      "id": "node/3183025906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3415271563",
+        "amenity": "restaurant",
+        "cuisine": "Chinese;Shanxi",
+        "name": "Restaurant Do Eat",
+        "opening_hours": "Tu-We 12:00-14:30,19:00-22:30",
+        "phone": "+33 9 52 67 26 57",
+        "takeaway": "yes",
+        "website": "https://www.doeatparis.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3419096,
+          48.8764622
+        ]
+      },
+      "id": "node/3415271563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3415271564",
+        "addr:city": "Paris",
+        "addr:housenumber": "28",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Lamartine",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "Gin Go Gae",
+        "name:fr": "Gin Go Gae"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3419539,
+          48.8766024
+        ]
+      },
+      "id": "node/3415271564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3438053658",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Fukushiyama",
+        "opening_hours": "Mo-Fr 12:00-15:00,18:30-23:00; Su 18:30-23:00",
+        "operator": "Shao Jean-Marc",
+        "phone": "+33 1 47 70 45 67",
+        "smoking": "outside",
+        "source": "survey:2015-03-28",
+        "takeaway": "yes",
+        "toilets:wheelchair": "no",
+        "website": "http://www.fukushiyama-75.fr/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Petite marche à l'entrée, porte battante difficile à ouvrir. Toilettes en bas d'un escalier très étroit et raide."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3445995,
+          48.8759307
+        ]
+      },
+      "id": "node/3438053658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3438081754",
+        "amenity": "restaurant",
+        "name": "La Gargamelle",
+        "outdoor_seating": "yes",
+        "phone": "+33 1 48 78 33 90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3400064,
+          48.8749633
+        ]
+      },
+      "id": "node/3438081754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3535132540",
+        "amenity": "restaurant",
+        "brewery": "Estrella;Voll Damm",
+        "cuisine": "spanish",
+        "name": "Le Petit Barcelone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3449321,
+          48.873689
+        ]
+      },
+      "id": "node/3535132540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3564245493",
+        "amenity": "restaurant",
+        "name": "Les Fils à Maman",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3437357,
+          48.8735029
+        ]
+      },
+      "id": "node/3564245493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3564245494",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "description": "Caffé della Pizza Ristorante",
+        "name": "Caffé della Pizza",
+        "note:fr": "Caffé della Pizza Ristorante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3433422,
+          48.8733106
+        ]
+      },
+      "id": "node/3564245494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3564245498",
+        "addr:housenumber": "7",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Geoffroy Marie",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Vale & Ale",
+        "opening_hours": "Mo-Su 12:00-14:00, 19:30-22:00",
+        "phone": "+33153346287",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3436472,
+          48.8734527
+        ]
+      },
+      "id": "node/3564245498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3588432323",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "La Cuisine Chinoise",
+        "phone": "+33147702227",
+        "source": "survey 2015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3444855,
+          48.8751609
+        ]
+      },
+      "id": "node/3588432323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3655998026",
+        "amenity": "restaurant",
+        "name": "Le Beaucé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3435445,
+          48.8739692
+        ]
+      },
+      "id": "node/3655998026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3668191709",
+        "amenity": "restaurant",
+        "name": "Le Bistrot à deux Têtes",
+        "phone": "+33 1 48 78 35 58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403004,
+          48.8756987
+        ]
+      },
+      "id": "node/3668191709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696663374",
+        "amenity": "restaurant",
+        "name": "Etoile du Liban",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3384166,
+          48.8776751
+        ]
+      },
+      "id": "node/3696663374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3702655129",
+        "access:covid19": "no",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "25",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Taitbout",
+        "cuisine": "indian",
+        "delivery:covid19": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "New Balal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33519,
+          48.8732905
+        ]
+      },
+      "id": "node/3702655129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3811446658",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "À Côté"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3350103,
+          48.8734176
+        ]
+      },
+      "id": "node/3811446658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3837126776",
+        "addr:postcode": "75009",
+        "amenity": "restaurant",
+        "name": "Arlette",
+        "opening_hours": "Tu-Fr 12:00-14:30,19:00-22:00; Sa 12:00-14:30,19:00-22:30",
+        "operator": "Daskin Hakan",
+        "phone": "+33 9 80 59 21 67",
+        "smoking": "outside",
+        "website": "https://www.facebook.com/La-Pom-dAmour-746638862110531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3409528,
+          48.8766269
+        ]
+      },
+      "id": "node/3837126776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4034254547",
+        "addr:housenumber": "70",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "happy_hours": "Mo-Su 16:00-22:00",
+        "name": "Le Régent",
+        "opening_hours": "Mo-Su 12:00-02:00",
+        "phone": "+33 1 48 78 14 69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3441556,
+          48.8758287
+        ]
+      },
+      "id": "node/4034254547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4044332041",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "contact:city": "Paris",
+        "contact:housenumber": "21",
+        "contact:phone": "+33 9 83 87 95 95",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Le Peletier",
+        "contact:website": "https://www.monph7.com/",
+        "diet:vegetarian": "only",
+        "gluten_free": "yes",
+        "name": "PH7",
+        "organic": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.338495,
+          48.8729555
+        ]
+      },
+      "id": "node/4044332041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4044482741",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Xia ri leng yin",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3360738,
+          48.8742719
+        ]
+      },
+      "id": "node/4044482741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4125470311",
+        "amenity": "restaurant",
+        "contact:phone": "+33 9 50 77 53 35",
+        "cuisine": "chinese",
+        "name": "Aigle d'Orient",
+        "website": "https://www.aigledorient.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3444061,
+          48.8769794
+        ]
+      },
+      "id": "node/4125470311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4125470312",
+        "amenity": "restaurant",
+        "contact:phone": "+33 1 48 78 09 95",
+        "cuisine": "japanese",
+        "name": "Yoki",
+        "opening_hours": "18:00-23:00, Mo-Sa 10:30-14:30",
+        "website": "https://yokisushi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3446736,
+          48.877117
+        ]
+      },
+      "id": "node/4125470312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4125480963",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "Al Bayader",
+        "phone": "+33 1 48 78 40 44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3445038,
+          48.8772828
+        ]
+      },
+      "id": "node/4125480963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4143268694",
+        "addr:city": "Paris",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Moy Goi Cuon Bar",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3361925,
+          48.8768325
+        ]
+      },
+      "id": "node/4143268694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4143268696",
+        "addr:city": "Paris",
+        "addr:housenumber": "32",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "name": "Barth",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3362388,
+          48.8768334
+        ]
+      },
+      "id": "node/4143268696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4197369297",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Plein Ouest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3443814,
+          48.8743663
+        ]
+      },
+      "id": "node/4197369297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4207592630",
+        "addr:city": "Paris",
+        "addr:housenumber": "11",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Montyon",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "description": "Restaurant japonais gastronomique",
+        "name": "Sumibi Kaz",
+        "opening_hours": "Tu-Sa 12:00-14:30, 19:00-23:00",
+        "phone": "+33 1 45 80 26 98",
+        "website": "https://www.sumibi-kaz.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3441219,
+          48.8730386
+        ]
+      },
+      "id": "node/4207592630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4207596442",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Matsusaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3438082,
+          48.8731589
+        ]
+      },
+      "id": "node/4207596442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278261392",
+        "addr:housenumber": "8",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Geoffroy Marie",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Zicatela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3440632,
+          48.8734583
+        ]
+      },
+      "id": "node/4278261392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278626563",
+        "amenity": "restaurant",
+        "diet:kosher": "only",
+        "name": "Chez David",
+        "phone": "+33 1 40 22 61 05",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3442623,
+          48.8730373
+        ]
+      },
+      "id": "node/4278626563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278626564",
+        "addr:city": "Paris",
+        "addr:housenumber": "11",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Montyon",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Makham Thaï Paris",
+        "phone": "+33 1 47 70 40 95"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3439214,
+          48.8730409
+        ]
+      },
+      "id": "node/4278626564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4312773166",
+        "addr:city": "Paris",
+        "addr:housenumber": "47",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Georges",
+        "amenity": "restaurant",
+        "cuisine": "turkish",
+        "name": "Sizin",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3372674,
+          48.8778223
+        ]
+      },
+      "id": "node/4312773166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360249193",
+        "addr:housenumber": "21",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "contact:facebook": "mamieburgerparis",
+        "contact:instagram": "mamierestaurants",
+        "contact:twitter": "mamieburger",
+        "cuisine": "burger",
+        "name": "Mamie",
+        "name:fr": "Mamia Burger",
+        "opening_hours": "Mo-Su 08:00-15:00, 18:00-02:00",
+        "phone": "+33 9 81 45 72 92",
+        "website": "https://www.mamie-restaurants.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3429045,
+          48.8730594
+        ]
+      },
+      "id": "node/4360249193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366842297",
+        "addr:housenumber": "3",
+        "addr:street": "Rue Milton",
+        "amenity": "restaurant",
+        "cuisine": "brazilian",
+        "name": "Gabriela",
+        "name:fr": "Gabriela",
+        "phone": "+33 1 42 80 28 14",
+        "website": "http://www.gabriela.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3404516,
+          48.8770327
+        ]
+      },
+      "id": "node/4366842297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4389641402",
+        "addr:city": "Paris",
+        "addr:housenumber": "18",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "capacity": "20",
+        "cuisine": "french",
+        "description": "Restaurant bar à vin",
+        "drink": "wine",
+        "level": "1",
+        "name": "Le Bouclier de Bacchus",
+        "payment:credit_cards": "yes",
+        "smoking": "outside",
+        "website": "http://www.bouclierdebacchus.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3377035,
+          48.8768607
+        ]
+      },
+      "id": "node/4389641402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4412152990",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "japanese;noodle",
+        "level": "0",
+        "name": "Abri Soba",
+        "name:fr": "Abri Soba",
+        "outdoor_seating": "no",
+        "reservation": "no",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3444884,
+          48.8750272
+        ]
+      },
+      "id": "node/4412152990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475551548",
+        "addr:housenumber": "4",
+        "addr:street": "Rue Choron",
+        "amenity": "restaurant",
+        "name": "Choron",
+        "opening_hours:covid19": "off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.342466,
+          48.8773651
+        ]
+      },
+      "id": "node/4475551548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548570150",
+        "addr:housenumber": "24",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Richer",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Makan Makan",
+        "opening_hours": "Mo-Fr 12:00-14:30, 18:30-22:00; Sa 12:00-15:00",
+        "phone": "+33 6 27 06 97 01",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3458145,
+          48.8741173
+        ]
+      },
+      "id": "node/4548570150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4580960891",
+        "addr:housenumber": "60",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Les Diamantaires",
+        "phone": "+33147707814"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3425926,
+          48.8754075
+        ]
+      },
+      "id": "node/4580960891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4678487389",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "Mô Ri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3404799,
+          48.8755603
+        ]
+      },
+      "id": "node/4678487389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4680160490",
+        "addr:city": "Paris 9eme Arrondissement",
+        "addr:housenumber": "17",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Maubeuge",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/CoinOpTable",
+        "contact:twitter": "https://twitter.com/COINOPTABLE",
+        "cuisine": "burger;coffee_shop;french",
+        "diet:vegetarian": "yes",
+        "leisure": "amusement_arcade",
+        "name": "Coin-Op Table",
+        "opening_hours": "We-Sa 12:00-23:00, Tu 12:00-15:00, Su 12:00-17:00",
+        "phone": "+33140358537",
+        "website": "http://coin-op-table.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3434569,
+          48.8777223
+        ]
+      },
+      "id": "node/4680160490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753837525",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Moriarty",
+        "name:fr": "Moriarty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3421848,
+          48.8766059
+        ]
+      },
+      "id": "node/4753837525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4758384028",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Fuxia",
+        "name:fr": "Fuxia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3395866,
+          48.8784544
+        ]
+      },
+      "id": "node/4758384028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4790815426",
+        "addr:city": "Paris",
+        "addr:housenumber": "47",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Richer",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Bien Élevé",
+        "name:fr": "Bien Élevé",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 1 45 81 44 35",
+        "website": "http://www.bieneleve.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3432187,
+          48.8739833
+        ]
+      },
+      "id": "node/4790815426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4855673114",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Chez Vincent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3375197,
+          48.8778834
+        ]
+      },
+      "id": "node/4855673114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4855673116",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Le Bon Georges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3372106,
+          48.8776422
+        ]
+      },
+      "id": "node/4855673116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4855693222",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "MiZushi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.337289,
+          48.8770812
+        ]
+      },
+      "id": "node/4855693222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4859813179",
+        "addr:city": "Paris",
+        "addr:housenumber": "24",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "capacity": "10",
+        "cuisine": "japanese",
+        "disused:amenity": "fast_food",
+        "name": "Gyoza Bar",
+        "takeaway": "yes",
+        "takeaway:lunchbox": "unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3369509,
+          48.8767825
+        ]
+      },
+      "id": "node/4859813179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4864147785",
+        "amenity": "restaurant",
+        "name": "Le Dream Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3394129,
+          48.8770625
+        ]
+      },
+      "id": "node/4864147785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908987597",
+        "addr:city": "Paris",
+        "addr:housenumber": "7",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Cadet",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "cuisine": "pizza",
+        "name": "Le Papacionu",
+        "opening_hours": "Mo-Sa 12:00-14:30,19:00-23:30",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "survey:date": "2018-05-05",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3427513,
+          48.8747685
+        ]
+      },
+      "id": "node/4908987597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4935628429",
+        "amenity": "restaurant",
+        "name": "La Condesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3427482,
+          48.8785156
+        ]
+      },
+      "id": "node/4935628429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4935628430",
+        "addr:housenumber": "8",
+        "addr:street": "Rue Hippolyte Lebas",
+        "amenity": "restaurant",
+        "description": "Neo-bistrot",
+        "name": "Caillebotte",
+        "opening_hours": "Mo-Fr 12:30-14:30,19:30-22:30",
+        "phone": "+33153208870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.34083,
+          48.8771
+        ]
+      },
+      "id": "node/4935628430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4966817508",
+        "amenity": "restaurant",
+        "name": "libshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340406,
+          48.8750922
+        ]
+      },
+      "id": "node/4966817508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4966817509",
+        "amenity": "restaurant",
+        "contact:mobile": "+33 6 52 22 44 64",
+        "cuisine": "regional",
+        "name": "Le P'tit Piano",
+        "opening_hours": "Mo 07:00-16:00, Tu-Fr 07:00-24:00, Sa-Su 10:00-24:00",
+        "website": "https://leptitpianobar.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3436884,
+          48.8756444
+        ]
+      },
+      "id": "node/4966817509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4973211216",
+        "addr:city": "Paris",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Châteaudun",
+        "amenity": "restaurant",
+        "cuisine": "greek",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Gallika",
+        "opening_hours": "Mo-Fr 11:30-14:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.336314,
+          48.8760016
+        ]
+      },
+      "id": "node/4973211216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029994921",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "23",
+        "contact:phone": "+33 1 55 07 86 52",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de la Victoire",
+        "name": "Louis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3387445,
+          48.8750532
+        ]
+      },
+      "id": "node/5029994921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5132372221",
+        "addr:housenumber": "31 bis",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "cuisine": "argentinian",
+        "email": "hola@locolerestaurant.com",
+        "name": "Loco",
+        "phone": "+33 970986841",
+        "website": "http://www.locolerestaurant.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3424946,
+          48.8737307
+        ]
+      },
+      "id": "node/5132372221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5186169364",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Arcimboldo",
+        "opening_hours": "Tu-Fr 12:00-14:30, Tu-Sa 19:00-22:00",
+        "phone": "+33 1 48 78 35 54",
+        "website": "https://arcimboldopizza.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3434194,
+          48.8753151
+        ]
+      },
+      "id": "node/5186169364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5196307522",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "11",
+        "contact:phone": "+33 1 48 24 84 40",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Cadet",
+        "contact:website": "http://royalcadet.fr",
+        "cuisine": "french",
+        "name": "Le Royal Cadet",
+        "name:en": "Brasserie Cadet",
+        "survey:date": "2018-05-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3431504,
+          48.8752635
+        ]
+      },
+      "id": "node/5196307522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5209260098",
+        "addr:postcode": "75009",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "cuisine": "japanese",
+        "name": "Neko Ramen",
+        "opening_hours": "Mo-Su 11:30-23:00",
+        "website": "https://www.nekoramen.fr/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3423234,
+          48.8731313
+        ]
+      },
+      "id": "node/5209260098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302471392",
+        "addr:city": "Paris",
+        "addr:housenumber": "15",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Notre-Dame-de-Lorette",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Mian",
+        "website": "https://mianfan.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3380986,
+          48.8776793
+        ]
+      },
+      "id": "node/5302471392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417941785",
+        "addr:city": "Paris",
+        "addr:housenumber": "8",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Châteaudun",
+        "amenity": "restaurant",
+        "cuisine": "world;healthy",
+        "email": "contact@nousrestaurant.fr",
+        "name": "Nous Châteaudun",
+        "opening_hours": "Mo-Fr 12:00-14:30,19:00-22:30; Sa,Su 12:00-15:00,19:00-22:30",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "http://www.nousrestaurant.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3414237,
+          48.8759011
+        ]
+      },
+      "id": "node/5417941785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5667593336",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "Sannine",
+        "outdoor_seating": "yes",
+        "source": "survey 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3426956,
+          48.8738696
+        ]
+      },
+      "id": "node/5667593336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5667593337",
+        "amenity": "restaurant",
+        "name": "Chez Léon",
+        "source": "survey 2018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3428335,
+          48.8737555
+        ]
+      },
+      "id": "node/5667593337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5689953454",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "27",
+        "contact:phone": "+33 9 70 38 61 00",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Richer",
+        "contact:website": "https://www.lessardignac.fr/",
+        "cuisine": "regional;wine",
+        "diet:vegetarian": "yes",
+        "name": "Les Sardignac",
+        "opening_hours": "Mo-Fr 12:00-15:00,18:00-02:00; Sa 18:00-02:00; Su off",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3449879,
+          48.8739562
+        ]
+      },
+      "id": "node/5689953454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5774910156",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Fr 11:30-14:30,18:00-23:00; Sa,Su,PH 11:30-23:00",
+        "operator": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3444669,
+          48.8771365
+        ]
+      },
+      "id": "node/5774910156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5877960608",
+        "addr:city": "Paris",
+        "addr:housenumber": "7",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Bourdaloue",
+        "amenity": "restaurant",
+        "capacity": "20",
+        "cuisine": "latin_american",
+        "name": "Isana",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3385935,
+          48.8765862
+        ]
+      },
+      "id": "node/5877960608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5913758023",
+        "amenity": "restaurant",
+        "contact:email": "nathan@lacaleducotentin.fr",
+        "contact:phone": "+33 6 23917982",
+        "contact:website": "https://www.lacaleducotentin.fr/",
+        "cuisine": "oyster",
+        "name": "La Cale du Cotentin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3401432,
+          48.8771027
+        ]
+      },
+      "id": "node/5913758023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5916181911",
+        "addr:city": "Paris",
+        "addr:housenumber": "29",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Georges",
+        "amenity": "restaurant",
+        "capacity": "10",
+        "name": "Pick and Co",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3370123,
+          48.8764072
+        ]
+      },
+      "id": "node/5916181911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5980951946",
+        "addr:city": "Paris 9eme Arrondissement",
+        "addr:housenumber": "18",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Rodier",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "dog": "no",
+        "name": "Hotaru",
+        "opening_hours": "Tu-Sa 12:30-14:30,19:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+33 1 48 78 33 74",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3427222,
+          48.8782074
+        ]
+      },
+      "id": "node/5980951946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5981803288",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Kozo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3373363,
+          48.8772425
+        ]
+      },
+      "id": "node/5981803288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5981805085",
+        "amenity": "restaurant",
+        "contact:city": "Paris 9eme Arrondissement",
+        "contact:housenumber": "48",
+        "contact:phone": "+33 1 42 81 35 94",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Saint-Georges",
+        "name": "Chez Delphine",
+        "opening_hours": "We-Fr 12:00-14:30, 19:00-22:30; Sa 19:00-22:30",
+        "ref:FR:SIRET": "85007565600015",
+        "website": "https://www.restaurantchezdelphine.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3373158,
+          48.8771873
+        ]
+      },
+      "id": "node/5981805085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5981805185",
+        "amenity": "restaurant",
+        "cuisine": "tibetan",
+        "diet:vegetarian": "yes",
+        "name": "Nirvana Dream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3372412,
+          48.8769371
+        ]
+      },
+      "id": "node/5981805185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6003131457",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "2",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de Provence",
+        "cuisine": "italian;pizza",
+        "name": "Il Piccolo Drouot",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3417958,
+          48.8741188
+        ]
+      },
+      "id": "node/6003131457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6007703105",
+        "addr:city": "Paris",
+        "addr:housenumber": "31",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Mizupoke",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3361794,
+          48.8766901
+        ]
+      },
+      "id": "node/6007703105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6044004255",
+        "addr:city": "Paris",
+        "addr:housenumber": "37",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "email": "hello@beauetfort.com",
+        "level": "0",
+        "name": "Beau & Fort",
+        "opening_hours": "Mo-Sa 10:00-23:00,Su 10:30-16:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 1 45 89 23 96",
+        "smoking": "outside",
+        "website": "https://www.beauetfort.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3420981,
+          48.8741043
+        ]
+      },
+      "id": "node/6044004255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6044106913",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "La poketerie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3417873,
+          48.8739937
+        ]
+      },
+      "id": "node/6044106913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6044132983",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:email": "contact@thams.fr",
+        "contact:housenumber": "11",
+        "contact:phone": "+33 9 84 55 67 40",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de Provence",
+        "contact:website": "http://www.thams.fr/",
+        "cuisine": "vietnamese;lao;taiwanese",
+        "level": "0",
+        "name": "Tham's",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3410975,
+          48.874012
+        ]
+      },
+      "id": "node/6044132983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6044324520",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "54",
+        "contact:phone": "+33 1 45 23 18 29",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Richer",
+        "cuisine": "sushi;japanese",
+        "level": "0",
+        "name": "Line Sushi",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3431805,
+          48.8740953
+        ]
+      },
+      "id": "node/6044324520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6068528486",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Au Bonheur",
+        "old_name": "Orient Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3430313,
+          48.875112
+        ]
+      },
+      "id": "node/6068528486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6112669236",
+        "addr:city": "Paris",
+        "addr:housenumber": "57",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "Sainbol",
+        "phone": "+33 9 52 59 37 20",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "http://sainbol.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3405363,
+          48.8754953
+        ]
+      },
+      "id": "node/6112669236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6140347085",
+        "amenity": "restaurant",
+        "name": "Saveur du Si Chuan",
+        "opening_hours": "Tu-Su 12:00-15:00,18:30-22:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3409007,
+          48.8753895
+        ]
+      },
+      "id": "node/6140347085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6251324473",
+        "amenity": "restaurant",
+        "cuisine": "asian;vietnamese",
+        "name": "Zen Bo Bun",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3362409,
+          48.8766857
+        ]
+      },
+      "id": "node/6251324473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6288844557",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "12",
+        "contact:postcode": "75009",
+        "contact:street": "Rue Marguerite de Rochechouart",
+        "cuisine": "french",
+        "name": "Les Anges Gourmands",
+        "phone": "+33 1 48 78 28 83",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3446931,
+          48.8771701
+        ]
+      },
+      "id": "node/6288844557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6325739385",
+        "addr:housenumber": "7",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Châteaudun",
+        "amenity": "restaurant",
+        "name": "Little Baobai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3414884,
+          48.8756793
+        ]
+      },
+      "id": "node/6325739385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6388821014",
+        "amenity": "restaurant",
+        "name": "Simone Lemon",
+        "opening_hours": "Mo-Fr 11:45-14:45, 09:00-18:00; Sa, Su 11:30-16:00",
+        "website": "https://www.simonelemon.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3393076,
+          48.8742544
+        ]
+      },
+      "id": "node/6388821014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6420966885",
+        "addr:city": "Paris",
+        "addr:housenumber": "19",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Notre-Dame-de-Lorette",
+        "amenity": "restaurant",
+        "cuisine": "venezuelan",
+        "email": "contact@ajidulce.fr",
+        "internet_access": "wlan",
+        "name": "aji dulce",
+        "name:en": "aji dulce - the taste of Venezuela",
+        "name:fr": "aji dulce - le goût du Venezuela",
+        "name:nl": "aji dulce - de smaak van Venezuela",
+        "phone": "+33 1 83 87 15 56",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "http://www.ajidulce.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3379234,
+          48.8778931
+        ]
+      },
+      "id": "node/6420966885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6554151627",
+        "addr:housenumber": "18",
+        "addr:street": "Rue Chauchat",
+        "amenity": "restaurant",
+        "name": "Palinuro",
+        "opening_hours": "Mo-Sa 09:00-15:00, 18:00-23:00",
+        "phone": "+33 1 47 70 94 75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3397907,
+          48.8738792
+        ]
+      },
+      "id": "node/6554151627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6562769648",
+        "amenity": "restaurant",
+        "capacity": "8",
+        "contact:city": "Paris",
+        "contact:housenumber": "34",
+        "contact:phone": "+33 1 40 34 21 80",
+        "contact:postcode": "75009",
+        "contact:street": "Rue de la Victoire",
+        "contact:website": "https://www.uglywok.com/",
+        "cuisine": "thai",
+        "name": "The Ugly Wok",
+        "opening_hours": "Mo-Fr 12:00-15:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3375723,
+          48.8751921
+        ]
+      },
+      "id": "node/6562769648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6602352485",
+        "addr:housenumber": "20",
+        "addr:street": "Rue des Martyrs",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Yoom Dim Sum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3396821,
+          48.877974
+        ]
+      },
+      "id": "node/6602352485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6776083685",
+        "addr:housenumber": "8",
+        "addr:street": "Rue Cadet",
+        "amenity": "restaurant",
+        "name": "Mam Thai",
+        "opening_hours": "Mo-Fr 11:30-16:00, 18:00-22:30; Sa-Su 00:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.342717,
+          48.8744817
+        ]
+      },
+      "id": "node/6776083685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6791192885",
+        "amenity": "restaurant",
+        "name": "Muqam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3455731,
+          48.8752333
+        ]
+      },
+      "id": "node/6791192885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802180924",
+        "addr:city": "Paris 9eme Arrondissement",
+        "addr:housenumber": "17",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Maubeuge",
+        "amenity": "restaurant",
+        "cuisine": "chinese;vietnamese",
+        "name": "Phô Neuf",
+        "opening_hours": "Tu-Su 12:00-14:30,18:30-22:30",
+        "phone": "+33148781114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3435552,
+          48.877757
+        ]
+      },
+      "id": "node/6802180924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6905693428",
+        "addr:city": "Paris",
+        "addr:housenumber": "43",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Laffitte",
+        "amenity": "restaurant",
+        "contact:instagram": "majouja.paris",
+        "cuisine": "arab",
+        "indoor_seating": "yes",
+        "name": "Les Piplettes",
+        "name:en": "Majouja",
+        "name:es": "Majouja",
+        "name:fr": "Majouja",
+        "opening_hours": "Tu-Th 12:00-15:00; Fr-Sa 12:00-15:00, 19:30-22:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "https://www.majoujaparis.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3384016,
+          48.8753137
+        ]
+      },
+      "id": "node/6905693428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909732685",
+        "amenity": "restaurant",
+        "name": "Paris Yum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3456359,
+          48.8758733
+        ]
+      },
+      "id": "node/6909732685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6987051316",
+        "amenity": "restaurant",
+        "name": "Café Drouot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3406278,
+          48.8729446
+        ]
+      },
+      "id": "node/6987051316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004752103",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "check_date:opening_hours": "2023-04-29",
+        "cuisine": "ramen;noodle;japanese",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Naruto Ramen",
+        "opening_hours": "Su-Th 12:00-22:30, Fr-Sa 12:00-23:00",
+        "phone": "+33 1 71 60 45 82",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no",
+        "website": "https://naruto-ramen.fr/fr",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340611,
+          48.8754081
+        ]
+      },
+      "id": "node/7004752103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7011199779",
+        "amenity": "restaurant",
+        "name": "Corner Haussmann"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3351626,
+          48.8728637
+        ]
+      },
+      "id": "node/7011199779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7124999574",
+        "addr:housenumber": "15",
+        "addr:street": "Rue Lamartine",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Miss SUN",
+        "name:fr": "Miss SUN",
+        "name:zh": "遇见长安",
+        "opening_hours": "Mo-Th 18:30-23:00; Fr-Su 12:30-15:30,18:30-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+33 6 18 85 91 87;+33 1 42 45 37 87",
+        "reservation": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3420687,
+          48.8764516
+        ]
+      },
+      "id": "node/7124999574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7211522063",
+        "addr:city": "Paris",
+        "addr:housenumber": "37",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "contact:city": "Paris",
+        "contact:housenumber": "37",
+        "contact:postcode": "75009",
+        "contact:street": "Rue La Fayette",
+        "contact:website": "http://www.come-paris.fr",
+        "cuisine": "bowl",
+        "indoor_seating": "yes",
+        "name": "Côme - La Fayette",
+        "opening_hours": "Mo-Fr 10:00-15:15",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "toilets": "yes",
+        "website": "http://www.come-paris.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3386851,
+          48.8746195
+        ]
+      },
+      "id": "node/7211522063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7227689604",
+        "addr:city": "Paris",
+        "addr:housenumber": "55",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "all_you_can_eat": "yes",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "OKITO Le Peletier",
+        "opening_hours": "Mo-Sa 12:00-15:00,18:30-23:00; Su 18:30-23:00",
+        "phone": "+33140160923",
+        "website": "https://lepeletier.okito.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3406528,
+          48.8753639
+        ]
+      },
+      "id": "node/7227689604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7289213938",
+        "addr:city": "Paris",
+        "addr:housenumber": "18",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Chamaille",
+        "opening_hours": "Mo-Fr 12:00-14:00; Sa-Su 12:00-16:30",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes",
+        "website": "https://www.chamailleparis.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.337638,
+          48.8768523
+        ]
+      },
+      "id": "node/7289213938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7332920586",
+        "addr:housenumber": "4",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Milton",
+        "amenity": "restaurant",
+        "name": "Le Soma (Milton)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3407269,
+          48.8769186
+        ]
+      },
+      "id": "node/7332920586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7926078392",
+        "addr:housenumber": "46",
+        "addr:street": "Rue Lamartine",
+        "amenity": "restaurant",
+        "cuisine": "african",
+        "name": "Les marmites de Fa",
+        "opening_hours": "Mo-Sa 11:00-15:00; Mo-We,Su 19:00-24:00; Th-Sa 19:00-02:00",
+        "phone": "+33 1 48 74 28 54",
+        "website": "http://www.lesmarmitesdefa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3407289,
+          48.8766369
+        ]
+      },
+      "id": "node/7926078392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7995599887",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "chinese;yunnan",
+        "delivery": "yes",
+        "level": "0",
+        "microbrewery": "no",
+        "name": "Carnet de route",
+        "opening_hours": "Th-Tu 12:00-15:00,18:30-22:30",
+        "phone": "+33 1 77 19 55 73",
+        "self_service": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403982,
+          48.8756506
+        ]
+      },
+      "id": "node/7995599887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8005907666",
+        "addr:city": "Paris",
+        "addr:housenumber": "34",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Notre-Dame-de-Lorette",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/thecurerestaurantparis/",
+        "contact:instagram": "https://www.instagram.com/thecurerestaurantparis/",
+        "cuisine": "bowl",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "contact@thecure-restaurant.com",
+        "name": "The cure",
+        "opening_hours": "Mo-Fr 12:00-15:00",
+        "phone": "+33 9 82 53 53 73",
+        "takeaway": "yes",
+        "website": "https://thecure-restaurant.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3373252,
+          48.878709
+        ]
+      },
+      "id": "node/8005907666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8714652617",
+        "addr:housenumber": "9",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Rodier",
+        "amenity": "restaurant",
+        "contact:facebook": "troisfoisplusdepiment.fr",
+        "contact:instagram": "plus.de.piment",
+        "cuisine": "asian;chinese",
+        "email": "admin@3foisplusdepiment.com",
+        "name": "Trois Fois Plus de Piment",
+        "opening_hours": "Tu-Su 12:00-15:00, 18:30-22:30",
+        "phone": "+33 9 75 18 04 50",
+        "website": "https://troisfoisplusdepiment.fr/fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3423903,
+          48.8778682
+        ]
+      },
+      "id": "node/8714652617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8853618432",
+        "amenity": "restaurant",
+        "cuisine": "uzbek",
+        "name": "Bukhara",
+        "phone": "+33 148241742",
+        "website": "http://ouzbek-resto.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3453171,
+          48.8750543
+        ]
+      },
+      "id": "node/8853618432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8863039589",
+        "amenity": "restaurant",
+        "cuisine": "salad",
+        "indoor_seating": "yes",
+        "name": "Composé",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "takeaway:customer_container": "yes",
+        "takeaway:lunchbox": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3366502,
+          48.8759575
+        ]
+      },
+      "id": "node/8863039589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9020241824",
+        "amenity": "restaurant",
+        "name": "Poké bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.345039,
+          48.8781221
+        ]
+      },
+      "id": "node/9020241824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132781020",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi Boubou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3458015,
+          48.8784761
+        ]
+      },
+      "id": "node/9132781020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9161008838",
+        "amenity": "restaurant",
+        "name": "Kinn Khao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3450698,
+          48.8773404
+        ]
+      },
+      "id": "node/9161008838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9455171462",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Saveur Zen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3408777,
+          48.8759383
+        ]
+      },
+      "id": "node/9455171462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9455171476",
+        "amenity": "restaurant",
+        "name": "Bercail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3409963,
+          48.8763092
+        ]
+      },
+      "id": "node/9455171476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9455171483",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Swagat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3423886,
+          48.8753512
+        ]
+      },
+      "id": "node/9455171483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9455171486",
+        "amenity": "restaurant",
+        "name": "Nautilus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3418263,
+          48.8756523
+        ]
+      },
+      "id": "node/9455171486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9528274317",
+        "addr:housenumber": "12",
+        "addr:postcode": "75009",
+        "addr:street": "Rue de Trévise",
+        "amenity": "restaurant",
+        "name": "La bouche bleue",
+        "website": "https://labouchebleue.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3452881,
+          48.8733685
+        ]
+      },
+      "id": "node/9528274317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9546668217",
+        "addr:housenumber": "8",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "name": "Bleu Bao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3382922,
+          48.8769483
+        ]
+      },
+      "id": "node/9546668217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9558699352",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "First LAP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3404889,
+          48.878225
+        ]
+      },
+      "id": "node/9558699352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9558735500",
+        "amenity": "restaurant",
+        "butcher": "poultry",
+        "name": "Chez Plume",
+        "shop": "butcher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3394079,
+          48.8770283
+        ]
+      },
+      "id": "node/9558735500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9558747717",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Shizuka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3400432,
+          48.8783109
+        ]
+      },
+      "id": "node/9558747717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9558784417",
+        "amenity": "restaurant",
+        "name": "Poppy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3405847,
+          48.8767842
+        ]
+      },
+      "id": "node/9558784417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9558798517",
+        "amenity": "restaurant",
+        "name": "Creime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3416793,
+          48.876621
+        ]
+      },
+      "id": "node/9558798517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9569512617",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Prik Thaï"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3456865,
+          48.8787423
+        ]
+      },
+      "id": "node/9569512617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9609564349",
+        "amenity": "restaurant",
+        "name": "La démesure"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3415617,
+          48.874518
+        ]
+      },
+      "id": "node/9609564349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9610322971",
+        "amenity": "restaurant",
+        "cuisine": "asian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3414998,
+          48.8745113
+        ]
+      },
+      "id": "node/9610322971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9610338336",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Table neuf",
+        "opening_hours": "Mo-Sa 12:00-15:00,19:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3442234,
+          48.8735546
+        ]
+      },
+      "id": "node/9610338336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9610343518",
+        "addr:housenumber": "47",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "contact:facebook": "CaramelSarrasin",
+        "contact:instagram": "caramel_sarrasin",
+        "cuisine": "crepe",
+        "internet_access": "wlan",
+        "name": "Caramel Sarrasin",
+        "opening_hours": "Mo-We 10:30-14:00; Th-Fr 10:30-14:30, 19:00-22:00",
+        "phone": "09 51 25 80 04",
+        "website": "https://caramelsarrasin.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3413623,
+          48.874617
+        ]
+      },
+      "id": "node/9610343518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9629671717",
+        "addr:housenumber": "15",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Hippolyte Lebas",
+        "amenity": "restaurant",
+        "name": "Pompette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3400432,
+          48.8771167
+        ]
+      },
+      "id": "node/9629671717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9741286318",
+        "addr:housenumber": "56",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Richer",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Ma Cantine Thaï",
+        "opening_hours": "Mo-Fr 12:00-15:00",
+        "phone": "+33 144830230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3428812,
+          48.8741017
+        ]
+      },
+      "id": "node/9741286318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9741488318",
+        "addr:housenumber": "56",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Richer",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Ma Cantine Thaï",
+        "opening_hours": "Mo-Fr 12:00-15:00",
+        "phone": "+33 144830230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3428664,
+          48.8740904
+        ]
+      },
+      "id": "node/9741488318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9781734723",
+        "addr:city": "Paris",
+        "addr:country": "FR",
+        "addr:housenumber": "17",
+        "addr:postcode": "75009",
+        "addr:street": "Rue Bleue",
+        "amenity": "restaurant",
+        "cuisine": "armenian",
+        "name": "Cantine de la Maison de la Culture Arménienne de Paris",
+        "opening_hours": "Mo-Sa 12:00-15:00,19:00-23:00",
+        "operator": "Maison de la Culture Arménienne",
+        "phone": "+33 1 48 24 63 89",
+        "website": "https://www.facebook.com/Cantine-de-la-Maison-de-la-Culture-Armenienne-de-Paris-298995103835749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3461182,
+          48.8753538
+        ]
+      },
+      "id": "node/9781734723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9801114117",
+        "amenity": "restaurant",
+        "name": "La Cave Drouot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3406438,
+          48.8727548
+        ]
+      },
+      "id": "node/9801114117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9801172317",
+        "amenity": "restaurant",
+        "name": "Lupo caffè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3425908,
+          48.8730747
+        ]
+      },
+      "id": "node/9801172317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9864287812",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Au Petit Te"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3380088,
+          48.8778002
+        ]
+      },
+      "id": "node/9864287812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10027954178",
+        "amenity": "restaurant",
+        "name": "Miznon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3426102,
+          48.872949
+        ]
+      },
+      "id": "node/10027954178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10264645009",
+        "addr:housenumber": "17",
+        "addr:street": "Rue Bleue",
+        "amenity": "restaurant",
+        "name": "Restaurant Arménien - ambassade Arménie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3461153,
+          48.8757625
+        ]
+      },
+      "id": "node/10264645009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10286310509",
+        "addr:housenumber": "17",
+        "addr:street": "Rue Le Peletier",
+        "amenity": "restaurant",
+        "check_date": "2023-08-06",
+        "cuisine": "chinese;fish",
+        "internet_access": "wlan",
+        "name": "Restaurant Sichuan",
+        "name:en": "Sichuan restaurant",
+        "name:zh": "川里川外",
+        "opening_hours": "Mo-Tu 12:00-14:30,18:30-22:30; Th-Su 12:00-14:30,18:30-22:30",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+33 1 47 70 64 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3384403,
+          48.872776
+        ]
+      },
+      "id": "node/10286310509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10308274409",
+        "addr:street": "Rue Saint-Lazare",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pépé Ronchon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3360435,
+          48.8767002
+        ]
+      },
+      "id": "node/10308274409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10310449609",
+        "addr:housenumber": "31",
+        "addr:street": "Rue de Châteaudun",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Pokawa",
+        "opening_hours": "Mo-Su 11:00-14:30, 18:30-22:30",
+        "outdoor_seating": "no",
+        "phone": "+33185736972",
+        "website": "https://restaurants.pokawa.com/poke-bowl-paris-chateaudun/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3369341,
+          48.8759752
+        ]
+      },
+      "id": "node/10310449609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10316518609",
+        "addr:housenumber": "20",
+        "addr:street": "Rue Milton",
+        "amenity": "restaurant",
+        "name": "Batoù"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.341216,
+          48.8782605
+        ]
+      },
+      "id": "node/10316518609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10542849003",
+        "addr:city": "Paris",
+        "addr:housenumber": "43",
+        "addr:postcode": "75009",
+        "addr:street": "Rue La Fayette",
+        "amenity": "restaurant",
+        "cuisine": "mediterranean",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Med'eat",
+        "opening_hours": "Mo-Fr 11:45-14:15",
+        "outdoor_seating": "yes",
+        "phone": "+33 1 40 03 85 73",
+        "website": "https://www.medeat.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3395568,
+          48.8748583
+        ]
+      },
+      "id": "node/10542849003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10571177714",
+        "amenity": "restaurant",
+        "name": "Alleudium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3429008,
+          48.8784676
+        ]
+      },
+      "id": "node/10571177714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10604080605",
+        "addr:housenumber": "43",
+        "addr:street": "Rue Laffitte",
+        "amenity": "restaurant",
+        "name": "Fimmina Pizzeria",
+        "opening_hours": "Su-Fr 12:00-22:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3383617,
+          48.8753047
+        ]
+      },
+      "id": "node/10604080605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10613824711",
+        "amenity": "restaurant",
+        "cuisine": "french",
+        "name": "Berrie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3355468,
+          48.8766339
+        ]
+      },
+      "id": "node/10613824711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10613829210",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "diet:vegetarian": "no",
+        "name": "Bistro Dam Korean BBQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3364498,
+          48.8766783
+        ]
+      },
+      "id": "node/10613829210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10660907862",
+        "addr:housenumber": "17",
+        "addr:street": "Rue de Châteaudun",
+        "amenity": "restaurant",
+        "check_date": "2023-02-14",
+        "cuisine": "noodle;ramen;japanese",
+        "name": "Yatai Ramen",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3391516,
+          48.8758331
+        ]
+      },
+      "id": "node/10660907862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10682577392",
+        "amenity": "restaurant",
+        "name": "Mamou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3354032,
+          48.8738544
+        ]
+      },
+      "id": "node/10682577392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10801608378",
+        "amenity": "restaurant",
+        "name": "Lorette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3380722,
+          48.8767795
+        ]
+      },
+      "id": "node/10801608378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10876238296",
+        "addr:city": "Paris",
+        "addr:housenumber": "23",
+        "addr:postcode": "75009",
+        "addr:street": "Passage Verdeau",
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "diet:halal": "yes",
+        "diet:kosher": "yes",
+        "diet:vegetarian": "yes",
+        "fixme": "Emplacement exact",
+        "name": "Keopi",
+        "opening_hours": "Tu-Su 10:00-20:00",
+        "phone": "+33 1 47 70 86 24",
+        "website": "https://keopi-paris.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.342322,
+          48.8736803
+        ]
+      },
+      "id": "node/10876238296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11034414509",
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "Menkicchi Ramen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3426992,
+          48.8729311
+        ]
+      },
+      "id": "node/11034414509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11035523081",
+        "addr:city": "Paris",
+        "addr:housenumber": "66",
+        "addr:postcode": "75009",
+        "addr:street": "Rue du Faubourg Montmartre",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "delivery": "yes",
+        "name": "El Chingon",
+        "opening_hours": "Mo-Su 11:30-02:00",
+        "phone": "+33981636187",
+        "website": "http://www.elchingon.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3399715,
+          48.8763269
+        ]
+      },
+      "id": "node/11035523081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11063430375",
+        "addr:housenumber": "48",
+        "addr:street": "Rue laffitte",
+        "amenity": "restaurant",
+        "name": "Juste",
+        "opening_hours": "Mo 18:30-22:30; Tu-Fr 12:00-14:30, 18:30-22:30; Sa 12:00-15:30, 18:30-23:00",
+        "phone": "0982339347",
+        "website": "https://juste-producteur.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3385009,
+          48.8750353
+        ]
+      },
+      "id": "node/11063430375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11090136337",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "Chinese; sichuan",
+        "delivery": "yes",
+        "level": "0",
+        "name": "Liziba Chongqing Chicken Pot",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3455585,
+          48.8740938
+        ]
+      },
+      "id": "node/11090136337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11102867827",
+        "amenity": "restaurant",
+        "name": "La Cantine Marocaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3456393,
+          48.8739711
+        ]
+      },
+      "id": "node/11102867827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11114080053",
+        "amenity": "restaurant",
+        "cuisine": "latino",
+        "name": "Mi Ranchito Paisa",
+        "opening_hours": "Mo-Fr 12:00-14:30,19:00-23:30; Sa,Su 12:00-23:30",
+        "phone": "+33 1 48 78 45 94",
+        "ref:FR:SIREN": "445260193",
+        "ref:FR:SIRET": "44526019300013",
+        "website": "https://miranchitopaisa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3448229,
+          48.8764947
+        ]
+      },
+      "id": "node/11114080053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11114080055",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Thaï Thaï Gourmand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3444499,
+          48.8770926
+        ]
+      },
+      "id": "node/11114080055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11114080058",
+        "amenity": "restaurant",
+        "description": "Restaurant in the hotel La Fantaisie.",
+        "name": "Golden Poppy",
+        "outdoor_seating": "yes",
+        "website": "https://goldenpoppy.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3434648,
+          48.8753633
+        ]
+      },
+      "id": "node/11114080058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11171620994",
+        "addr:housenumber": "43",
+        "addr:street": "Rue Laffite",
+        "amenity": "restaurant",
+        "description": "Cantine Kabyle",
+        "name": "Majoja",
+        "opening_hours": "Tu-Fr 12:00-15:00; Sa 12:00-16:30",
+        "phone": "0951492518",
+        "website": "www.majoujaparis.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3384573,
+          48.8754385
+        ]
+      },
+      "id": "node/11171620994"
+    }
+  ]
+}
