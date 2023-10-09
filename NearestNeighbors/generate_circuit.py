@@ -54,10 +54,10 @@ def swap(this_idx, this_dist, that_idx, that_dist):
 def knn(x, y):
     dist = all_distances(x, y)
     idx = list(range(N_PTS))
-    for k in range(2):
+    for k in range(config.number_of_neighbors):
         for i in range(k+1, N_PTS):
              idx[k], dist[k], idx[i], dist[i] = swap(idx[k], dist[k], idx[i], dist[i])
-    return fhe.array([get_point(idx[j]) for j in range(2)])
+    return fhe.array([get_point(idx[j]) for j in range(config.number_of_neighbors)])
 
 
 inputset = [

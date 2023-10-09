@@ -33,3 +33,16 @@ def transform_point(longitude, latitude):
     y = int(y) % 10000
 
     return x, y
+
+
+def process_result(rest, result):
+    processed_result = []
+    restaurants_list = []
+    for res in result:
+        mask1 = rest['geometry'].to_crs("epsg:2154").apply(lambda geom: int(geom.x) % 10000 == res[0])
+        mask2 = rest['geometry'].to_crs("epsg:2154").apply(lambda geom: int(geom.y) % 10000 == res[1])
+        final_mask = mask1 & mask2
+        result_df = rest[final_mask]
+        processed_result.append(result_df.geometry)
+        restaurants_list.append(f"{result_df.name.iloc[0]}, {result_df.cuisine.iloc[0]}")
+    return processed_result, restaurants_list
