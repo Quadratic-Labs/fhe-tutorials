@@ -38,7 +38,6 @@ if 'evaluation_key' not in st.session_state:
         if st.button('Generate keys'):
             with st.spinner('Generating keys'):
                 client.keys.load_if_exists_generate_and_save_otherwise(config.keys_filepath)
-                # client.keys.save(config.keys_filepath)
                 st.session_state['evaluation_key'] = client.evaluation_keys.serialize()
             st.rerun()
 else:
@@ -195,7 +194,6 @@ else:
             st.write("")    
             st.write(f"Received origin: {display_encrypted(st.session_state['encrypted_origin'])}")
             st.write(f"Received destination: {display_encrypted(st.session_state['encrypted_destination'])}")
-            # st.write(f"Next node is {display_encrypted(st.session_state['encrypted_shortest_path'])} and is sent to client")
     if 'decrypted_result' in st.session_state :
         origin = st.session_state['origin']
         folium.Marker([origin.y, origin.x], popup="Origin", tooltip="Origin").add_to(m)
@@ -214,7 +212,8 @@ else:
             st.write(f"Decrypted result is: {st.session_state['decrypted_result']}")
             if st.button('Restart'):
                 for key in st.session_state.keys():
-                    del st.session_state[key]
+                    if key != 'evaluation_key':
+                        del st.session_state[key]
                 st.rerun() 
         with c2:
             origin = st.session_state['origin']
