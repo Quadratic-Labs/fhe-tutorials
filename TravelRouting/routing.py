@@ -38,15 +38,3 @@ def route(origin, destination):
 circuit = route.compile([(0, N_NODES - 1), (N_NODES - 1, 0)])
 circuit.client.keys.generate()
 
-
-def shortest_path(origin, destination):
-    path = [origin, ]
-    o, d = circuit.encrypt(origin, destination)
-    for _ in range(N_NODES - 1):
-        # Careful: breaking early could lead to information leak
-        # if origin == destination:
-        #     break
-        o = circuit.run(o, d)
-        origin = circuit.decrypt(o)
-        path.append(origin)
-    return path

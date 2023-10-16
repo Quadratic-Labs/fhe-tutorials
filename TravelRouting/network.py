@@ -4,6 +4,17 @@ import numpy
 
 
 def get_frames(ways: geopandas.GeoDataFrame):
+    """Extract nodes, edges, and relations from a GeoDataFrame of ways.
+
+    Args:
+        ways (geopandas.GeoDataFrame): A GeoDataFrame containing information about ways.
+
+    Returns:
+        nodes (geopandas.GeoDataFrame): A GeoDataFrame containing node geometries.
+        edges (geopandas.GeoDataFrame): A GeoDataFrame containing ways information.
+        rel (geopandas.GeoDataFrame): A GeoDataFrame representing relations between nodes and edges.
+
+    """
     edges = ways.explode(index_parts=False)[["id", "name", "geometry"]]
     edges.index.name = "way_id"
     edges = edges.reset_index()
@@ -15,6 +26,14 @@ def get_frames(ways: geopandas.GeoDataFrame):
 
 
 def get(ways: geopandas.GeoDataFrame) -> networkx.Graph:
+    """ Convert a GeoDataFrame of ways into a networkx Graph.
+
+    Args:
+        ways (geopandas.GeoDataFrame): A GeoDataFrame containing information about ways.
+
+    Returns:
+        networkx.Graph: A networkx Graph representing the geographical network.
+    """
     nodes, edges, rel = get_frames(ways)
     graph = networkx.Graph()
     for node in rel['node_id'].unique():
@@ -22,7 +41,6 @@ def get(ways: geopandas.GeoDataFrame) -> networkx.Graph:
     for idx in rel['way_id'].unique():
         node_id1, node_id2 = rel.loc[idx]['node_id']
         way = edges.loc[idx]
-        way_length = rel.loc[idx]['geometry'].iloc[0].length
         graph.add_edge(
             node_id1, node_id2,
             weight=way.geometry.length,
@@ -33,6 +51,14 @@ def get(ways: geopandas.GeoDataFrame) -> networkx.Graph:
 
 
 def weighted_adjacency_matrix(graph: networkx.Graph) -> numpy.ndarray:
+    """Generate the weighted adjacency matrix from a networkx Graph.
+
+    Args:
+        graph (networkx.Graph):  A networkx Graph representing the network.
+
+    Returns:
+        numpy.ndarray: A NumPy array representing the weighted adjacency matrix.
+    """
     weights = numpy.full((graph.number_of_nodes(),)*2, numpy.inf)
     numpy.fill_diagonal(weights, 0., wrap=False)
     for i in graph:
