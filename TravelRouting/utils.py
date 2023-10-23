@@ -215,6 +215,6 @@ def restart_session():
     """
     if st.button('Restart'):
         for key in st.session_state.items():
-            if key != 'evaluation_key':
-                del st.session_state[key]
+            if key[0] != 'evaluation_key':
+                del st.session_state[key[0]]
         st.rerun() 
