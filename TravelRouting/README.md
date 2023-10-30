@@ -18,7 +18,7 @@ To achieve this, FHE is used to implement what is known as Oblivious Transfer (O
 Oblivious transfer is easily implemented using Zama's concrete library by a single Table Lookup (TLU).
 
 ## Demo App
-A demo streamlit app is available on HuggingFace: https://huggingface.co/spaces/tzamoj-quadratic/FHETravelRouting
+A demo streamlit app is available on HuggingFace: https://huggingface.co/spaces/Quadratic-Labs/PrivateTravelRouting-FHE
 
 It can also be deployed locally in the usual way:
 
@@ -31,3 +31,19 @@ The app depends also on files found in data/ folder:
   1. circuit.zip : use generate_circuit.py to recompile the circuit if necessary (on new network data).
   1. key.zip : cached keys. If not present, they will be generated.
   1. paris_quadratic_edges.geojson: map data extracted from OSM (overpass-turbo API). See Getting-Started.ipynb for more information.
+
+
+## Exploring Shortest-Paths Algorithms
+The demo app uses a single oblivious transfert to achieve privacy, relying on the server to pre-compute every possible combinations. However, the server might also want to include trafic data from its users to gain information about estimated time at arrival (ETA). In this case, it would be probably infeasible to compute all possible combinations.
+
+We started this project by investigating solutions where the server would compute shortest-paths on the fly given a graph. 
+There are several algorithms to choose from, of which we looked at dijkstra, bellman-ford and floyd-warshall. However, their performances are not as expected due to hidden information.
+
+In fact, a brute force approach like floyd-warshall takes O(N^3)-time. Other methods make use of optimisations using stopping criteria, priority queues and other similar constructs. It is unclear whether these can bring any advantage in encrypted world as we cannot do if-else constructs. Still, this can be subject of further investigation, for exemple via heap implementations.
+
+## Size of the map
+Origins and destinations are currently restricted to a set of intersections of street segments on a localised region. There are 2 improvements that we would like to further investigate.
+
+The first is to be able to select any point on the network for origin and destination. One way to do it would be to compute distance between the origin and the 2 closest intersections (nodes), same for destination, and proceed with current algorithm 4 times. However, we expect this to be a rather inefficient way of doing things.
+
+The second improvement would be the ability to select points far apart, departing from the very localised map to a much larger map. Today, this seems to be a hard task to do. One possible approach would be to approximate optimum via aggregations first. However, this is still very much open.
