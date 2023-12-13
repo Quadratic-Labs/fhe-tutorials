@@ -6,6 +6,7 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
+
 def init_session():
     """Initialize the Streamlit session and layout configuration.
 
@@ -13,13 +14,13 @@ def init_session():
         Streamlit.columns: A tuple of Streamlit columns for layout customization.
     """
     st.set_page_config(layout="wide")
-    
-    if 'markers' not in st.session_state:
-        st.session_state['markers'] = []
-    if 'server_side' not in st.session_state:
-            st.session_state['server_side'] = []    
-    if 'client_side' not in st.session_state:
-            st.session_state['client_side'] = []
+
+    if "markers" not in st.session_state:
+        st.session_state["markers"] = []
+    if "server_side" not in st.session_state:
+        st.session_state["server_side"] = []
+    if "client_side" not in st.session_state:
+        st.session_state["client_side"] = []
 
     c1, c2, c3 = st.columns([1, 3, 1])
 
@@ -38,10 +39,13 @@ def set_up_server():
     try:
         server = fhe.Server.load(circuit_filepath)
     except OSError as e:
-        raise OSError(f"Something went wrong with the circuit. Make sure that the circuit \
-            exists in {circuit_filepath}.If not run python generate_circuit.py.") from e
+        raise OSError(
+            f"Something went wrong with the circuit. Make sure that the circuit \
+            exists in {circuit_filepath}.If not run python generate_circuit.py."
+        ) from e
 
     return server
+
 
 def set_up_client(serialized_client_specs):
     """Generate a client instance from a specified circuit file
@@ -52,11 +56,12 @@ def set_up_client(serialized_client_specs):
     Returns:
         concrete.fhe.compilation.client.Client: A client instance created from the client specs
     """
-    
+
     client_specs = fhe.ClientSpecs.deserialize(serialized_client_specs)
     client = fhe.Client(client_specs)
 
     return client
+
 
 def display_encrypted(encrypted_object):
     """Display a truncated representation of an encrypted object as a hexadecimal string
@@ -68,7 +73,7 @@ def display_encrypted(encrypted_object):
         str: A truncated hexadecimal representation of the encrypted object
     """
     encoded_text = encrypted_object.hex()
-    res = '...' + encoded_text[-10:]
+    res = "..." + encoded_text[-10:]
     return res
 
 
@@ -82,8 +87,8 @@ def transform_point(longitude, latitude):
     Returns:
         int, int: integers to be processed by the FHE circuit
     """
-    gdf = gpd.GeoDataFrame({'geometry': [Point(longitude, latitude)]}, crs='EPSG:4326')
-    gdf = gdf.to_crs('EPSG:2154')
+    gdf = gpd.GeoDataFrame({"geometry": [Point(longitude, latitude)]}, crs="EPSG:4326")
+    gdf = gdf.to_crs("EPSG:2154")
     x, y = gdf.geometry.iloc[0].x, gdf.geometry.iloc[0].y
     x = int(x) % 10000
     y = int(y) % 10000
@@ -98,10 +103,20 @@ def process_result(rest, result):
         rest (geopandas.DataFrame): list of restaurants
         result (list[(int, int)]): list of the nearest neighbors returned by the algorithm
     """
-    add_to_client_side(f"The {number_of_neighbors} closest restaurant to your location are:")
+    add_to_client_side(
+        f"The {number_of_neighbors} closest restaurant to your location are:"
+    )
     for index, res in enumerate(result):
-        mask1 = rest['geometry'].to_crs("epsg:2154").apply(lambda geom: int(geom.x) % 10000 == res[0])
-        mask2 = rest['geometry'].to_crs("epsg:2154").apply(lambda geom: int(geom.y) % 10000 == res[1])
+        mask1 = (
+            rest["geometry"]
+            .to_crs("epsg:2154")
+            .apply(lambda geom: int(geom.x) % 10000 == res[0])
+        )
+        mask2 = (
+            rest["geometry"]
+            .to_crs("epsg:2154")
+            .apply(lambda geom: int(geom.y) % 10000 == res[1])
+        )
         final_mask = mask1 & mask2
         result_df = rest[final_mask]
         restaurant_info = f"{result_df.name.iloc[0]}, {result_df.cuisine.iloc[0]}"
@@ -113,11 +128,12 @@ def add_marker(coordinates, name):
     """Add a marker with coordinates and a name to the Streamlit session.
 
     Args:
-        coordinates (Point): The coordinates of the marker 
+        coordinates (Point): The coordinates of the marker
         name (str): The name or label for the marker
     """
-    data = {'coordinates': coordinates, 'name': name}
-    st.session_state['markers'].append(data)
+    data = {"coordinates": coordinates, "name": name}
+    st.session_state["markers"].append(data)
+
 
 def display_map(restaurants, returned_objects=None):
     """Display the map with nodes and optional markers and paths.
@@ -129,26 +145,40 @@ def display_map(restaurants, returned_objects=None):
     Returns:
         Streamlit.FoliumMap: An interactive map displaying nodes and markers
     """
-    m = restaurants.explore(
-        scheme="naturalbreaks",
-        tooltip="name",
-        popup=["name"],
-        name="Quadratic-Paris",
-        color="red",  
-        marker_kwds=dict(radius=5, fill=True, name='node_id'),  
-    )
+    if "decrypted_result" in st.session_state:
+        m = restaurants.explore(
+            scheme="naturalbreaks",
+            tooltip="name",
+            popup=["name"],
+            name="Quadratic-Paris",
+            color="red",
+            marker_kwds=dict(radius=5, fill=True, name="node_id"),
+        )
+    else:
+        m = restaurants.explore(
+            scheme="naturalbreaks",
+            tooltip="name",
+            popup=["name"],
+            name="Quadratic-Paris",
+        )
 
-    if 'position' in st.session_state:
-        position = st.session_state['position']
-        folium.Marker([position.y, position.x], popup='Starting point', tooltip='Starting point').add_to(m)
-        
-    if 'markers' in st.session_state:
-        for mrk in st.session_state['markers']:
-            folium.Marker([mrk['coordinates'].y, mrk['coordinates'].x], popup=mrk['name'], tooltip=mrk['name'],
-                                      icon=folium.Icon(color='black',icon_color='#FFFF00')).add_to(m)
+    if "position" in st.session_state:
+        position = st.session_state["position"]
+        folium.Marker(
+            [position.y, position.x], popup="Starting point", tooltip="Starting point"
+        ).add_to(m)
 
-        
+    if "markers" in st.session_state:
+        for mrk in st.session_state["markers"]:
+            folium.Marker(
+                [mrk["coordinates"].y, mrk["coordinates"].x],
+                popup=mrk["name"],
+                tooltip=mrk["name"],
+                icon=folium.Icon(color="black", icon_color="#FFFF00"),
+            ).add_to(m)
+
     return st_folium(m, width=725, key="origin", returned_objects=returned_objects)
+
 
 def add_to_server_side(message):
     """Add a message to the server side of the view
@@ -156,7 +186,8 @@ def add_to_server_side(message):
     Args:
         message (str): The message to be added to the server side
     """
-    st.session_state['server_side'].append(message)
+    st.session_state["server_side"].append(message)
+
 
 def add_to_client_side(message):
     """Add a message to the client side of the view
@@ -164,29 +195,27 @@ def add_to_client_side(message):
     Args:
         message (str): The message to be added to the client side
     """
-    st.session_state['client_side'].append(message)
+    st.session_state["client_side"].append(message)
+
 
 def display_server_side():
-    """Display the messages stored in the server-side view.
-    """
+    """Display the messages stored in the server-side view."""
     st.write("**Server-side**")
-    for message in st.session_state['server_side']:
+    for message in st.session_state["server_side"]:
         st.write(message)
 
+
 def display_client_side():
-    """Display the messages stored in the client-side view.
-    """
+    """Display the messages stored in the client-side view."""
     st.write("**Client-side**")
-    for message in st.session_state['client_side']:
+    for message in st.session_state["client_side"]:
         st.write(message)
 
 
 def restart_session():
-    """Clear the session state to restart
-    """
-    if st.button('Restart'):
+    """Clear the session state to restart"""
+    if st.button("Restart"):
         for key in st.session_state.items():
-            if key[0] != 'evaluation_key':
+            if key[0] != "evaluation_key":
                 del st.session_state[key[0]]
-        st.rerun() 
-
+        st.rerun()
