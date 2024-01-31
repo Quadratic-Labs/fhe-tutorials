@@ -26,9 +26,7 @@ def all_distances(x, y):
 # TLUs
 relu = fhe.univariate(lambda x: x if x > 0 else 0)
 is_positive = fhe.univariate(lambda x: 1 if x > 0 else 0)
-arg_selection = fhe.univariate(
-    lambda x: (x - 1) // 2 if x % 2 else 0
-)  # relu packed with a flag (alternating between 0 and relu)
+odd_halving = fhe.univariate(lambda x: (x - 1) // 2 if x % 2 else 0) 
 
 
 def swap(this_idx, this_dist, that_idx, that_dist):
@@ -40,7 +38,7 @@ def swap(this_idx, this_dist, that_idx, that_dist):
       idxmin, min, idxmax, max of this and that based on distance
     """
     diff = this_dist - that_dist
-    idx = arg_selection(2 * (this_idx - that_idx) + is_positive(diff))
+    idx = odd_halving((this_idx - that_idx) + (this_idx - that_idx) + is_positive(diff))
     dist = relu(diff)
 
     idx_min = this_idx - idx
