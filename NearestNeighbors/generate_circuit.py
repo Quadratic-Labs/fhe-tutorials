@@ -38,7 +38,7 @@ def swap(this_idx, this_dist, that_idx, that_dist):
       idxmin, min, idxmax, max of this and that based on distance
     """
     diff = this_dist - that_dist
-    idx = odd_halving((this_idx - that_idx) + (this_idx - that_idx) + is_positive(diff))
+    idx = odd_halving(2 * (this_idx - that_idx) + is_positive(diff))
     dist = relu(diff)
 
     idx_min = this_idx - idx
@@ -58,7 +58,8 @@ def knn(x, y):
     return fhe.array([get_point(idx[j]) for j in range(config.number_of_neighbors)])
 
 
-inputset = [(1550, 4289), (1908, 3972), (1705, 4253), (1980, 4071)]
+inputset = [(1550, 4289), (1908, 3972), (1705, 4253), (1980, 4071), (1390, 4305), 
+            (1236, 3901), (1469, 4108), (1474, 3842), (1325, 3542), (1643, 4879)]
 
 
 circuit = knn.compile(inputset)

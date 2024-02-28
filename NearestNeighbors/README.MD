@@ -1,7 +1,7 @@
 # K Nearest Neighbors
 ## Introduction
 
-The use of maps to find nearest point of interest (e.g. closest restaurants) is common. However, using such features may reveals sensitive personal information. In this tutorial, we demostrate how to use Zama's homomorphic encryption to find the K nearest restaurant to a given input while preserving the localisation's privacy.
+The use of maps to find nearest point of interest (e.g. closest restaurants) is common. However, using such features may reveals sensitive personal information. In this tutorial, we demonstrate how to use Zama's homomorphic encryption to find the K nearest restaurants to a given input while preserving the localisation's privacy.
 
 In this scenario, the server does not learn anything about a client's position at anytime as it sees only encrypted data.
 
@@ -11,7 +11,7 @@ In our application demo:
   1. The client owns its position. This information is never shared in clear with the server.
   1. The server owns map data. It only shares with the client the coordinates of the K closest restaurants to its position.
 
-To achieve this, FHE is used to implement swap sort. The server receives the encrypted coordinates and calculates the distance for each restaurant on the list. The server then perfoms a partial sort using swaps (an equivalent to [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)). It retrieves the encrypted coordinates of the K nearest restaurants and sends them to the client. The client decrypts the results.
+To achieve this, FHE is used to implement swap sort. The server receives the encrypted coordinates and calculates the distance for each restaurant on the list. The server then performs a partial sort using swaps (an equivalent to [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)). It retrieves the encrypted coordinates of the K nearest restaurants and sends them to the client. The client decrypts the results.
 
 ## Demo App
 A demo streamlit app is available on [Quadratic's HuggingFace](https://huggingface.co/spaces/Quadratic-Labs/PrivateNearestNeighbors-FHE):
@@ -26,7 +26,7 @@ The app depends also on files found in data/ folder:
 
   1. circuit.zip : use generate_circuit.py to recompile the circuit if necessary (on new network data).
   1. key.zip : cached keys. If not present, they will be generated.
-  1. restaurants.geojson: map data extracted from OSM (overpass-turbo API). See NearestExample.ipynb for more information.
+  1. restaurants.geojson: map data extracted from OSM (overpass-turbo API). See knn.ipynb for more information.
 
 ## Data Extraction
 
@@ -70,7 +70,7 @@ def swap(this_idx, this_dist, that_idx, that_dist):
       idxmin, min, idxmax, max of this and that based on distance
     """
     diff = this_dist - that_dist
-    idx = odd_halving((this_idx - that_idx) + (this_idx - that_idx) + is_positive(diff))
+    idx = odd_halving(2 * (this_idx - that_idx) + is_positive(diff))
     dist = relu(diff)
 
     idx_min = this_idx - idx
@@ -90,14 +90,14 @@ Then, on the basis of this difference, we calculate 'idx', the index change to b
 
 
 ```
-idx = odd_halving((this_idx - that_idx) + (this_idx - that_idx) + is_positive(diff))
+idx = odd_halving(2 * (this_idx - that_idx) + is_positive(diff))
 ```
 
-If the difference is positive (i.e. this > that), the input to odd_halving is always odd ((this_idx - that_idx) + (this_idx - that_idx) is even). 
+If the difference is positive (i.e. this > that), the input to odd_halving is always odd (2 * (this_idx - that_idx) is even). 
 The result of odd_halving is then (this_idx - that_idx), which is the difference to be applied to the original indices. Otherwise, the result is zero and the indices remain unchanged.
 
 
-The values are swaped (or not) depending on the diff value. We use a relu to achieve this. If the difference is positive, the values should be swaped, otherwise the relu returns zero and the values remain unchanged. 
+The values are swapped (or not) depending on the diff value. We use a relu to achieve this. If the difference is positive, the values should be swaped, otherwise the relu returns zero and the values remain unchanged. 
 
 
 The code extract below illustrates how the swap function works.
